@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Cores base do projeto. */
+:root {
+  color: #ffffff;
+  background: #070707;
+}
+
+/* Mantem o calculo de largura previsivel em todos os elementos. */
+* {
+  box-sizing: border-box;
+}
+
+/* Navegacao por ancora mais suave na home. */
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Fundo geral e protecao contra overflow horizontal no mobile. */
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(249, 115, 22, 0.16), transparent 28%),
+    linear-gradient(180deg, #090909 0%, #050505 100%);
+}
+
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+}
+
+/* Inputs e botoes herdam a fonte do projeto. */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+/* Utilitario usado em carrosseis horizontais mobile. */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
