@@ -30,7 +30,7 @@ const artesanalOption = {
   type: "single" as const,
   options: [
     { id: "nao", name: "Sem hamburguer artesanal", default: true },
-    { id: "sim", name: "Adicionar/trocar por hamburguer artesanal", priceDelta: 6 }
+    { id: "sim", name: "Adicionar/trocar por hamburguer artesanal", priceDelta: 7.2 }
   ]
 };
 
@@ -81,7 +81,7 @@ export const products: Product[] = [
     name: "Hamburguer",
     description: "Pao bola, hamburguer, salada, cheddar e barbecue.",
     ingredients: ["Pao bola", "Hamburguer", "Salada", "Cheddar", "Barbecue"],
-    price: 6,
+    price: 9.25,
     image: images.burger
   },
   {
@@ -90,7 +90,7 @@ export const products: Product[] = [
     name: "Misto Quente",
     description: "Pao de caixa, queijo e presunto na chapa.",
     ingredients: ["Pao de caixa", "Queijo", "Presunto"],
-    price: 6,
+    price: 9.25,
     image: images.misto
   },
   {
@@ -99,7 +99,7 @@ export const products: Product[] = [
     name: "X-Salada",
     description: "Pao de caixa, salada, queijo e presunto na chapa.",
     ingredients: ["Pao de caixa", "Salada", "Queijo", "Presunto"],
-    price: 7,
+    price: 10.8,
     image: images.xSalada
   },
   {
@@ -108,7 +108,7 @@ export const products: Product[] = [
     name: "X-Burguer",
     description: "Pao bola, hamburguer, queijo, presunto, salada e barbecue.",
     ingredients: ["Pao bola", "Hamburguer", "Queijo", "Presunto", "Salada", "Barbecue"],
-    price: 10,
+    price: 15.4,
     image: images.burger
   },
   {
@@ -117,7 +117,7 @@ export const products: Product[] = [
     name: "X-Calabresa",
     description: "Pao bola, hamburguer, calabresa, queijo, presunto, salada e barbecue.",
     ingredients: ["Pao bola", "Hamburguer", "Calabresa", "Queijo", "Presunto", "Salada", "Barbecue"],
-    price: 12,
+    price: 18.9,
     image: images.calabresa
   },
   {
@@ -126,7 +126,7 @@ export const products: Product[] = [
     name: "X-Bacon",
     description: "Pao bola, hamburguer, bacon, queijo, presunto, salada e barbecue.",
     ingredients: ["Pao bola", "Hamburguer", "Bacon", "Queijo", "Presunto", "Salada", "Barbecue"],
-    price: 12,
+    price: 18.9,
     image: images.baconBurger,
     featured: true
   },
@@ -136,7 +136,7 @@ export const products: Product[] = [
     name: "X-Egg",
     description: "Pao bola, hamburguer, ovo, queijo, presunto, salada e barbecue.",
     ingredients: ["Pao bola", "Hamburguer", "Ovo", "Queijo", "Presunto", "Salada", "Barbecue"],
-    price: 12,
+    price: 18.9,
     image: images.egg
   },
   {
@@ -145,7 +145,7 @@ export const products: Product[] = [
     name: "X-Egg Dog",
     description: "Pao bola, hamburguer, ovo, salsicha, queijo, presunto, salada e barbecue.",
     ingredients: ["Pao bola", "Hamburguer", "Ovo", "Salsicha", "Queijo", "Presunto", "Salada", "Barbecue"],
-    price: 13,
+    price: 19.9,
     image: images.egg
   },
   {
@@ -154,7 +154,7 @@ export const products: Product[] = [
     name: "X-Egg Calabresa",
     description: "Pao bola, hamburguer, ovo, calabresa, queijo, presunto, salada e barbecue.",
     ingredients: ["Pao bola", "Hamburguer", "Ovo", "Calabresa", "Queijo", "Presunto", "Salada", "Barbecue"],
-    price: 13,
+    price: 19.9,
     image: images.calabresa
   },
   {
@@ -163,7 +163,7 @@ export const products: Product[] = [
     name: "X-Egg Bacon",
     description: "Pao bola, hamburguer, ovo, bacon, queijo, presunto, salada e barbecue.",
     ingredients: ["Pao bola", "Hamburguer", "Ovo", "Bacon", "Queijo", "Presunto", "Salada", "Barbecue"],
-    price: 13,
+    price: 19.9,
     image: images.baconBurger,
     featured: true
   },
@@ -173,7 +173,7 @@ export const products: Product[] = [
     name: "X-Coalho",
     description: "Pao bola, hamburguer, queijo coalho, presunto, salada e barbecue.",
     ingredients: ["Pao bola", "Hamburguer", "Queijo coalho", "Presunto", "Salada", "Barbecue"],
-    price: 13,
+    price: 19.9,
     image: images.coalho,
     optionGroups: [artesanalOption]
   },
@@ -183,7 +183,7 @@ export const products: Product[] = [
     name: "X-Tudo",
     description: "Pao bola grande, hamburguer, ovo, queijo, presunto, bacon, salsicha, calabresa, salada e barbecue.",
     ingredients: ["Pao bola grande", "Hamburguer", "Ovo", "Queijo", "Presunto", "Bacon", "Salsicha", "Calabresa", "Salada", "Barbecue"],
-    price: 16,
+    price: 24.9,
     image: images.burger,
     optionGroups: [artesanalOption],
     featured: true
@@ -194,7 +194,7 @@ export const products: Product[] = [
     name: "X-Mikael",
     description: "Pao bola grande, duas carnes de hamburguer, ovo, queijo, presunto, bacon, salsicha, calabresa, milho, ervilha, salada e barbecue.",
     ingredients: ["Pao bola grande", "2 hamburgueres", "Ovo", "Queijo", "Presunto", "Bacon", "Salsicha", "Calabresa", "Milho", "Ervilha", "Salada", "Barbecue"],
-    price: 20,
+    price: 30.9,
     image: images.burger,
     optionGroups: [artesanalOption],
     featured: true
@@ -205,7 +205,7 @@ export const products: Product[] = [
     name: "Cachorro Quente",
     description: "Pao, salsicha, carne moida, tomate, cebola, milho, ervilha, batata palha, ketchup, maionese, cheddar e queijo ralado.",
     ingredients: ["Pao", "Salsicha", "Carne moida", "Tomate", "Cebola", "Milho", "Ervilha", "Batata palha", "Ketchup", "Maionese", "Cheddar", "Queijo ralado"],
-    price: 7,
+    price: 10.8,
     image: images.hotDog,
     featured: true
   },
@@ -215,7 +215,7 @@ export const products: Product[] = [
     name: "Enroladinho de Salsicha",
     description: "Enroladinho de salsicha.",
     ingredients: ["Salsicha", "Massa"],
-    price: 4,
+    price: 6.15,
     image: images.pastel
   },
   {
@@ -224,7 +224,7 @@ export const products: Product[] = [
     name: "Coxinha de Frango",
     description: "Coxinha de frango.",
     ingredients: ["Frango", "Massa"],
-    price: 4,
+    price: 6.15,
     image: images.coxinha
   },
   {
@@ -233,7 +233,7 @@ export const products: Product[] = [
     name: "Coxinha de Frango com Catupiry",
     description: "Coxinha de frango com catupiry.",
     ingredients: ["Frango", "Catupiry", "Massa"],
-    price: 4,
+    price: 6.15,
     image: images.coxinha
   },
   {
@@ -242,7 +242,7 @@ export const products: Product[] = [
     name: "Coxinha de Charque",
     description: "Coxinha de charque.",
     ingredients: ["Charque", "Massa"],
-    price: 5,
+    price: 7.7,
     image: images.coxinha
   },
   {
@@ -251,7 +251,7 @@ export const products: Product[] = [
     name: "Pastel de Forno",
     description: "Pastel de forno com escolha de frango ou queijo.",
     ingredients: ["Massa de forno", "Recheio a escolher"],
-    price: 5,
+    price: 7.7,
     image: images.pastel,
     optionGroups: [salgadoFlavor("sabor-pastel", ["Frango", "Queijo"])]
   },
@@ -261,7 +261,7 @@ export const products: Product[] = [
     name: "Pao de Forno",
     description: "Pao de forno com escolha de pizza ou frango com catupiry.",
     ingredients: ["Massa", "Recheio a escolher"],
-    price: 5,
+    price: 7.7,
     image: images.pastel,
     optionGroups: [salgadoFlavor("sabor-pao-forno", ["Pizza", "Frango com Catupiry"])]
   },
@@ -271,7 +271,7 @@ export const products: Product[] = [
     name: "Copo 300ml",
     description: "Direito a 2 acompanhamentos + banana + cobertura.",
     ingredients: ["Acai", "Banana", "Cobertura", "2 acompanhamentos"],
-    price: 7,
+    price: 10.8,
     image: images.acai,
     optionGroups: [acaiCompanions(2), acaiCover]
   },
@@ -281,7 +281,7 @@ export const products: Product[] = [
     name: "Copo 400ml",
     description: "Direito a 3 acompanhamentos + banana + cobertura.",
     ingredients: ["Acai", "Banana", "Cobertura", "3 acompanhamentos"],
-    price: 10,
+    price: 15.4,
     image: images.acai,
     optionGroups: [acaiCompanions(3), acaiCover],
     featured: true
@@ -292,7 +292,7 @@ export const products: Product[] = [
     name: "Embalagem 500ml",
     description: "Direito a 4 acompanhamentos + banana + cobertura.",
     ingredients: ["Acai", "Banana", "Cobertura", "4 acompanhamentos"],
-    price: 13,
+    price: 20,
     image: images.acai,
     optionGroups: [acaiCompanions(4), acaiCover]
   },
@@ -302,7 +302,7 @@ export const products: Product[] = [
     name: "Embalagem 700ml",
     description: "Direito a 6 acompanhamentos + banana + cobertura.",
     ingredients: ["Acai", "Banana", "Cobertura", "6 acompanhamentos"],
-    price: 16,
+    price: 24.9,
     image: images.acai,
     optionGroups: [acaiCompanions(6), acaiCover]
   },
@@ -312,7 +312,7 @@ export const products: Product[] = [
     name: "Salsichao",
     description: "Espetinho de salsichao.",
     ingredients: ["Salsichao"],
-    price: 5,
+    price: 7.99,
     image: images.skewer
   },
   {
@@ -321,7 +321,7 @@ export const products: Product[] = [
     name: "Frango",
     description: "Espetinho de frango.",
     ingredients: ["Frango"],
-    price: 8,
+    price: 12.99,
     image: images.skewer
   },
   {
@@ -330,7 +330,7 @@ export const products: Product[] = [
     name: "Carne",
     description: "Espetinho de carne.",
     ingredients: ["Carne"],
-    price: 10,
+    price: 15.99,
     image: images.skewer,
     featured: true
   },
@@ -340,7 +340,7 @@ export const products: Product[] = [
     name: "Carne de Sol c/ Queijo",
     description: "Espetinho de carne de sol com queijo.",
     ingredients: ["Carne de sol", "Queijo"],
-    price: 12,
+    price: 18.99,
     image: images.skewer
   },
   {
@@ -349,7 +349,7 @@ export const products: Product[] = [
     name: "Frango c/ Bacon",
     description: "Espetinho de frango com bacon.",
     ingredients: ["Frango", "Bacon"],
-    price: 12,
+    price: 18.99,
     image: images.skewer
   },
   {
@@ -358,7 +358,7 @@ export const products: Product[] = [
     name: "Frango c/ Queijo",
     description: "Espetinho de frango com queijo.",
     ingredients: ["Frango", "Queijo"],
-    price: 12,
+    price: 18.99,
     image: images.skewer
   },
   {
@@ -367,7 +367,7 @@ export const products: Product[] = [
     name: "Costela de Carneiro",
     description: "Espetinho de costela de carneiro.",
     ingredients: ["Costela de carneiro"],
-    price: 12,
+    price: 18.99,
     image: images.skewer
   },
   {
@@ -376,7 +376,7 @@ export const products: Product[] = [
     name: "Queijo c/ Oregano e Mel",
     description: "Espetinho de queijo com oregano e mel.",
     ingredients: ["Queijo", "Oregano", "Mel"],
-    price: 10,
+    price: 15.99,
     image: images.skewer
   },
   {
@@ -385,7 +385,7 @@ export const products: Product[] = [
     name: "Pao de Alho",
     description: "Pao de alho no espeto.",
     ingredients: ["Pao de alho"],
-    price: 6,
+    price: 9.9,
     image: images.garlicBread
   },
   {
@@ -394,7 +394,7 @@ export const products: Product[] = [
     name: "Suco da Fruta",
     description: "Suco da fruta com escolha de tamanho.",
     ingredients: ["Suco da fruta"],
-    price: 2,
+    price: 3.1,
     image: images.juice,
     optionGroups: [
       {
@@ -404,7 +404,7 @@ export const products: Product[] = [
         required: true,
         options: [
           { id: "pequeno", name: "Pequeno", default: true },
-          { id: "grande", name: "Grande", priceDelta: 2 }
+          { id: "grande", name: "Grande", priceDelta: 3.05 }
         ]
       }
     ]
@@ -415,7 +415,7 @@ export const products: Product[] = [
     name: "H2O",
     description: "H2O gelada.",
     ingredients: ["H2O"],
-    price: 7,
+    price: 10.8,
     image: images.h2o
   },
   {
@@ -424,7 +424,7 @@ export const products: Product[] = [
     name: "Refrigerante",
     description: "Refrigerante.",
     ingredients: ["Refrigerante"],
-    price: 2.5,
+    price: 3.85,
     image: images.sodaCan
   },
   {
@@ -433,7 +433,7 @@ export const products: Product[] = [
     name: "Coca-Cola 250ml",
     description: "Coca-Cola 250ml.",
     ingredients: ["Coca-Cola", "250ml"],
-    price: 4,
+    price: 6.15,
     image: images.sodaCan
   },
   {
@@ -442,7 +442,7 @@ export const products: Product[] = [
     name: "Refrigerante Lata",
     description: "Refrigerante em lata.",
     ingredients: ["Refrigerante", "Lata"],
-    price: 6,
+    price: 9.9,
     image: images.sodaCan
   },
   {
@@ -451,7 +451,7 @@ export const products: Product[] = [
     name: "Coca-Cola 1L",
     description: "Coca-Cola 1 litro.",
     ingredients: ["Coca-Cola", "1L"],
-    price: 9,
+    price: 13.99,
     image: images.sodaCan
   },
   {
@@ -460,7 +460,7 @@ export const products: Product[] = [
     name: "Refrigerante 1L",
     description: "Refrigerante 1 litro.",
     ingredients: ["Refrigerante", "1L"],
-    price: 8,
+    price: 12.99,
     image: images.sodaCan
   },
   {
@@ -469,7 +469,7 @@ export const products: Product[] = [
     name: "Guarana do Amazonas",
     description: "Guarana do Amazonas.",
     ingredients: ["Guarana do Amazonas"],
-    price: 8,
+    price: 12.99,
     image: images.guaranaAmazonas
   },
   {
@@ -478,7 +478,7 @@ export const products: Product[] = [
     name: "Vitamina de Acai",
     description: "Vitamina de acai.",
     ingredients: ["Acai"],
-    price: 8,
+    price: 12.3,
     image: images.acai
   },
   {
@@ -487,7 +487,7 @@ export const products: Product[] = [
     name: "Guaracai",
     description: "Guaracai.",
     ingredients: ["Guarana", "Acai"],
-    price: 10,
+    price: 15.4,
     image: images.acai
   },
   {
@@ -496,7 +496,7 @@ export const products: Product[] = [
     name: "Itaipava 550ml",
     description: "Itaipava 550ml.",
     ingredients: ["Itaipava", "550ml"],
-    price: 7,
+    price: 10.99,
     image: images.beer
   },
   {
@@ -505,7 +505,7 @@ export const products: Product[] = [
     name: "Brahma 550ml",
     description: "Brahma 550ml.",
     ingredients: ["Brahma", "550ml"],
-    price: 8,
+    price: 12.99,
     image: images.beer
   },
   {
@@ -514,7 +514,7 @@ export const products: Product[] = [
     name: "Budweiser 473ml",
     description: "Budweiser 473ml.",
     ingredients: ["Budweiser", "473ml"],
-    price: 8,
+    price: 12.99,
     image: images.beer
   },
   {
@@ -523,7 +523,7 @@ export const products: Product[] = [
     name: "Heineken 330ml",
     description: "Heineken 330ml.",
     ingredients: ["Heineken", "330ml"],
-    price: 10,
+    price: 15.99,
     image: images.beerBottle
   },
   {
@@ -532,7 +532,7 @@ export const products: Product[] = [
     name: "Alcatrao 1/4",
     description: "Alcatrao 1/4.",
     ingredients: ["Alcatrao", "1/4"],
-    price: 10,
+    price: 15.99,
     image: images.alcatrao
   }
 ];
